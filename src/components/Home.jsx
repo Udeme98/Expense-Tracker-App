@@ -11,7 +11,7 @@ const Home = () => {
           Expense Tracker
         </Heading>
         <Flex alignItems={"center"}>
-          <Button bg={"blue.500"} color={"black"} ml={"4"}>
+          <Button bg={"blue.300"} color={"black"} ml={"4"}>
             Add New Transaction
           </Button>
         </Flex>
