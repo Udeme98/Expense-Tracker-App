@@ -1,4 +1,6 @@
 import { Button, Flex, Heading } from "@chakra-ui/react";
+import ExpenseView from "./ExpenseView";
+import Summary from "./Summary";
 
 const Home = () => {
   return (
@@ -15,6 +17,11 @@ const Home = () => {
             Add New Transaction
           </Button>
         </Flex>
+      </Flex>
+      <Summary />
+      <Flex>
+        <ExpenseView />
+        <ExpenseView />
       </Flex>
     </Flex>
   );
