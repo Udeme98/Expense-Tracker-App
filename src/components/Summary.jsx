@@ -1,4 +1,5 @@
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import TransactionForm from "./TransactionForm";
 
 const Summary = () => {
   return (
@@ -78,6 +79,7 @@ const Summary = () => {
           <Heading>Charts</Heading>
         </Box>
       </Flex>
+      <TransactionForm />
     </Box>
   );
 };
